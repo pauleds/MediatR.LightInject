@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.LightInject", "MediatR.LightInject\MediatR.LightInject.csproj", "{38FC1D64-E035-431D-83EF-81AB317F4F49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.LightInject.Tests", "MediatR.LightInject.Tests\MediatR.LightInject.Tests.csproj", "{A508007F-A024-4196-AEF5-248202AE8B97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38FC1D64-E035-431D-83EF-81AB317F4F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FC1D64-E035-431D-83EF-81AB317F4F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FC1D64-E035-431D-83EF-81AB317F4F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FC1D64-E035-431D-83EF-81AB317F4F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A508007F-A024-4196-AEF5-248202AE8B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A508007F-A024-4196-AEF5-248202AE8B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A508007F-A024-4196-AEF5-248202AE8B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A508007F-A024-4196-AEF5-248202AE8B97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F1508AA-B872-4B82-8440-CFAC049217AF}
+	EndGlobalSection
+EndGlobal
