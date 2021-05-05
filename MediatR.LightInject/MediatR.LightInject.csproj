@@ -1,9 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net472</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Paul Edwards [pauleds]</Authors>
+    <Company />
+    <Product />
+    <Description>An extension for LightInject IoC to use MediatR and CQRS with ease. Compatible with Umbraco 8 CMS.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/pauleds/MediatR.LightInject</RepositoryUrl>
+    <PackageTags>Umbraco Ioc Dependency-Injection Inversion-of-Control mediator request response queries commands</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LightInject" Version="6.4.0" />
+    <PackageReference Include="LightInject" Version="5.4.0" />
     <PackageReference Include="MediatR" Version="9.0.0" />
   </ItemGroup>
 </Project>

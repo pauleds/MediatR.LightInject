@@ -16,7 +16,7 @@ It's basically a simple LightInject port of [MediatR extensions for Microsoft.Ex
 
 	...
 
-	container.AddMediatR();
+	container.AddMediatR(typeof(MyHandler));
 
     // OR
 	

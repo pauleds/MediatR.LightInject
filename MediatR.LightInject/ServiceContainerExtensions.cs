@@ -9,14 +9,6 @@
     public static class ServiceContainerExtensions
     {
         /// <summary>
-        /// Registers handlers and mediator types from the executing assembly
-        /// </summary>
-        /// <param name="services">Service container</param>
-        /// <returns>Service container</returns>
-        public static ServiceContainer AddMediatR(this ServiceContainer services)
-            => services.AddMediatR(Assembly.GetExecutingAssembly());
-
-        /// <summary>
         /// Registers handlers and mediator types from the specified assemblies
         /// </summary>
         /// <param name="services">Service container</param>
